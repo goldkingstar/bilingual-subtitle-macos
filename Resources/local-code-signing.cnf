@@ -1,0 +1,15 @@
+[req]
+prompt = no
+distinguished_name = subject
+x509_extensions = extensions
+
+[subject]
+CN = Bilingual Subtitle Local Code Signing
+O = GoldKingStar Local Development
+
+[extensions]
+basicConstraints = critical,CA:TRUE
+keyUsage = critical,digitalSignature,keyCertSign
+extendedKeyUsage = critical,codeSigning
+subjectKeyIdentifier = hash
+authorityKeyIdentifier = keyid:always

@@ -1,0 +1,23 @@
+work/
+outputs/
+.DS_Store
+.swiftpm/
+.build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+
+# Local tools and agent state
+.codex/
+.agents/
+.idea/
+.vscode/
+
+# Credentials and local signing material
+.env
+.env.*
+*.p12
+*.pem
+*.key
+*.cer
+*.mobileprovision
