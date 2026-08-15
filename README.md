@@ -6,6 +6,16 @@
 
 > 本项目解决的是“Apple TV 只有原语言字幕，但观看时希望同时看到中文”的场景。它不会修改 Apple TV，不注入播放器，也不会上传屏幕图像。
 
+<p align="center">
+  <a href="https://github.com/goldkingstar/bilingual-subtitle-macos/releases/latest"><strong>下载最新 macOS arm64 发行版</strong></a>
+</p>
+
+## 应用截图
+
+| 主界面与实时预览 | 识别、显示与隐私设置 |
+| --- | --- |
+| ![双语字幕镜主界面](docs/images/app-overview.jpg) | ![双语字幕镜识别与显示设置](docs/images/app-settings.jpg) |
+
 ## 主要功能
 
 - 原生 macOS 应用：Swift、SwiftUI、AppKit、ScreenCaptureKit、Vision。
